@@ -1,0 +1,27 @@
+{
+  "url": {
+    "search": "https://cn.bing.com"
+  },
+  "items": [
+    {"id": 101, "name": "手机", "price": 3999.0, "expect": "手机"},
+    {"id": 102, "name": "耳机", "price": 599.0, "expect": "耳机"}
+  ],
+  "cust": {
+    "name": "张三",
+    "expect": "张三",
+    "orders": [
+      {"orderId": "ORD-001", "amount": 4500},
+      {"orderId": "ORD-002", "amount": 1200}
+    ],
+    "address": {
+      "city": "北京",
+      "details": ["朝阳区", "三里屯"]
+    },
+    "auto":{
+      "brand": true,
+      "model": 3
+    }
+  }
+}
+
+

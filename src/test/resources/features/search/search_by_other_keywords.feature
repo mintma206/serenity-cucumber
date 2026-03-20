@@ -1,18 +1,18 @@
-Feature: Search by keyword
+Feature: Search by animal
 
-  @green
+  @animal
   Scenario: Searching for 'fish'
     Given Sergey is researching things on the internet
     When he looks up "fish"
     Then he should see information about "fish"
 
-  @red
+  @animal
   Scenario: Searching for 'dog'
     Given Sergey is researching things on the internet
     When he looks up "dog"
     Then he should see information about "dog"
 
-  @blue
+  @animal
   Scenario: Searching for 'cat'
     Given Sergey is researching things on the internet
     When he looks up "cat"

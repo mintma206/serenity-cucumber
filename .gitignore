@@ -1,5 +1,6 @@
 target/
 build
+.vscode/
 out
 .gradle
 pom.xml.tag

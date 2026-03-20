@@ -9,7 +9,7 @@ public class LookForInformation {
     public static Performable about(String searchTerm) {
         return Task.where("{0} searches for '" + searchTerm + "'",
                 Enter.theValue(searchTerm)
-                        .into(SearchForm.SEARCH_FIELD)
+                        .into(SearchForm.BING_SEARCH_FIELD)
                         .thenHit(Keys.ENTER)
         );
     }
