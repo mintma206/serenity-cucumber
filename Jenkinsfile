@@ -30,9 +30,8 @@ pipeline {
                     --no-transfer-progress \
                     -Dmaven.wagon.http.ssl.insecure=true \
                     -Dmaven.wagon.http.ssl.allowall=true \
-                    -Dwebdriver.driver=chrome \
-                    -Dwebdriver.chrome.binary=/chrome/chrome.exe \
                     -Dmaven.wagon.http.ssl.ignore.validity.dates=true
+                    -Denvironment=ci
                 '''
             }
         }
