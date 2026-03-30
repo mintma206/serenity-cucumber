@@ -55,7 +55,7 @@ pipeline {
             // 归档完整报告（支持下载）
             archiveArtifacts artifacts: 'target/site/serenity/**',
                            allowEmptyArchive: true,
-                           fingerprint: true
+                           fingerprint: false
 
 
         }
